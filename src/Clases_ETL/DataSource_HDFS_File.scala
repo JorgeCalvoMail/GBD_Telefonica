@@ -29,7 +29,7 @@ class DataSource_HDFS_File {
   private var SaltoLinea:String
   private var EliminarCabecera:Boolean=false
   private var Nombre_DF:String
-
+//MÉTODOS
   def Asignar_Ruta(valor:String): Unit ={
     Ruta = valor
   }

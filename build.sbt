@@ -8,6 +8,8 @@ resolvers += Resolver.url("mvn2", url("http://central.maven.org/maven2/"))
 
 resolvers += Resolver.sonatypeRepo("releases")
 
+libraryDependencies += "org.scala-lang.modules" %% "scala-parser-combinators" % "1.0.4"
+
 libraryDependencies += "org.apache.spark" % "spark-core_2.10" % "1.6.1"
 
 libraryDependencies += "org.apache.spark" % "spark-sql_2.10" % "1.6.1"
